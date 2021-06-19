@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-    image(video,0,0,200,200)
+    image(video,230,150,200,200)
     fill(100,60,190);
     stroke(100,60,190);
     circle(50,50,80);
@@ -19,4 +19,8 @@ function draw() {
     rect(90,420,460,20);
     rect(40,90,20,300);
     rect(580,90,20,300);
+}
+
+function save() {
+    save("img.png");
 }
