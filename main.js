@@ -21,6 +21,6 @@ function draw() {
     rect(580,90,20,300);
 }
 
-function save() {
+function take() {
     save("img.png");
 }
